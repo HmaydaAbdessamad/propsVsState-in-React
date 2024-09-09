@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 
+//this is a function compo using state
 function C() {
     const [counter,setCounter]=useState(0)
     const incrementCounter=()=>{

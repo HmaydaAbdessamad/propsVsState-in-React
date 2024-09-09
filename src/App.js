@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import A from "./Props/class/A";
+import B from "./Props/function/B"
+import C from "./State/function/C"
+import D from "./State/class/D"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <A name="Youssef"></A>
+      <B name="Mouhamed"></B>
+      <C></C>
+      <D></D>
+
     </div>
   );
 }
